@@ -9,10 +9,10 @@
 The Chat Application is designed for real-time communication, allowing users to send text messages, share media, and participate in group conversations. This project provides a fast, secure, and user-friendly chat experience.
 
 ## Project Vision
-Our goal is to create a versatile chat application tailored for individual users and small groups or businesses who need efficient, secure communication.
+For individual users and small groups or businesses who need efficient, secure communication, our Online Chat Application is the communication platform that provides real-time messaging with media sharing and group chat capabilities. 
 
-Target Audience: Individuals, small groups, and businesses.
-Main Goal: Provide a real-time messaging platform with media sharing and group chat capabilities.
+Unlike other existing chat apps, our product prioritizes user experience and incorporates features such as easy-to-use interface, customization options, along with fast and reliable messages delivery, ensuring the standards of safety and privacy for our user.
+
 ## Features
 User Registration & Login: Secure user authentication.
 Real-time Messaging: Instant message delivery.
