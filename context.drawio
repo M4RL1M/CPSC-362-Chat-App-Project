@@ -35,9 +35,10 @@
         <mxCell id="36Wj5U354HoHek48pkDs-13" value="New user&lt;div&gt;information&lt;/div&gt;&lt;div&gt;input&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="205" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="36Wj5U354HoHek48pkDs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="36Wj5U354HoHek48pkDs-16">
+        <mxCell id="36Wj5U354HoHek48pkDs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="150" y="130" as="targetPoint" />
+            <mxPoint x="370" y="169" as="sourcePoint" />
+            <mxPoint x="155" y="129" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="36Wj5U354HoHek48pkDs-16" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Account creation denied&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
@@ -48,6 +49,28 @@
         </mxCell>
         <mxCell id="36Wj5U354HoHek48pkDs-22" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Create user&#39;s account&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="550" y="40" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-26" value="User Customization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="243" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36Wj5U354HoHek48pkDs-27" target="36Wj5U354HoHek48pkDs-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-27" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="228" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36Wj5U354HoHek48pkDs-29" target="36Wj5U354HoHek48pkDs-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="258" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-29" value="User settings&lt;div&gt;&amp;nbsp;input&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="228" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-32" value="Change user&lt;div&gt;information&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="218" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
