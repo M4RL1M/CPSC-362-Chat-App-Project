@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="SBNDKTTEdVOXE4RD1kLH">
-    <mxGraphModel dx="1272" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="696" dy="368" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,22 +117,28 @@
             <mxPoint y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="36Wj5U354HoHek48pkDs-51" value="Check if a&amp;nbsp;&lt;div&gt;network connection is&lt;div&gt;established&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="36Wj5U354HoHek48pkDs-51" value="Check if an&amp;nbsp;&lt;div&gt;network connection is&lt;div&gt;established&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="335" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="36Wj5U354HoHek48pkDs-53" value="" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="eswAk1OacALHeucm8gjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="36Wj5U354HoHek48pkDs-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="186" y="430" as="targetPoint" />
+            <mxPoint x="376" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36Wj5U354HoHek48pkDs-53" value="Connection Failed" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="36Wj5U354HoHek48pkDs-58" value="" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="36Wj5U354HoHek48pkDs-58" value="Recipient" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="335" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="O8iI8xoqqV5sgOP4shyp-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="O8iI8xoqqV5sgOP4shyp-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="570" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O8iI8xoqqV5sgOP4shyp-2" value="Message input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="O8iI8xoqqV5sgOP4shyp-2" value="Message input" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="345" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="O8iI8xoqqV5sgOP4shyp-3" value="System&amp;nbsp;&lt;div&gt;Notification&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="O8iI8xoqqV5sgOP4shyp-3" value="System&amp;nbsp;&lt;div&gt;Notification&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
