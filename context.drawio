@@ -81,7 +81,7 @@
           <mxGeometry x="400" y="150" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="36Wj5U354HoHek48pkDs-33" value="Send Messages" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry y="430" width="144" height="30" as="geometry" />
+          <mxGeometry x="14" y="465" width="144" height="30" as="geometry" />
         </mxCell>
         <mxCell id="36Wj5U354HoHek48pkDs-50" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="36Wj5U354HoHek48pkDs-45" target="36Wj5U354HoHek48pkDs-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
