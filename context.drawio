@@ -116,9 +116,9 @@
         <mxCell id="36Wj5U354HoHek48pkDs-51" value="Check if an&amp;nbsp;&lt;div&gt;network connection is&lt;div&gt;established&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="335" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eswAk1OacALHeucm8gjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="36Wj5U354HoHek48pkDs-53">
+        <mxCell id="eswAk1OacALHeucm8gjz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="O8iI8xoqqV5sgOP4shyp-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="186" y="430" as="targetPoint" />
+            <mxPoint x="150" y="330" as="targetPoint" />
             <mxPoint x="376" y="490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
