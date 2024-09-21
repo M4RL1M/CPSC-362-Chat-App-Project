@@ -1,4 +1,10 @@
 # CPSC-362-Chat-App-Project
+## Group 6: 
+- Alexander Blocker
+- Anh Mai
+- Matthew Lim
+- Ngoc Chung Tran
+
 ## Table of Contents
 - [Overview](#overview)
 - [Project Vision](#project-vision)
