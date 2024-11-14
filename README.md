@@ -52,6 +52,7 @@ Notifications: Receive real-time notifications for new messages.
 -   ⏳ And much more!
 
 ### Setup .env file
+Postman Link: https://app.getpostman.com/join-team?invite_code=01e925e1a56ca1d0bbb543f3a2fb28b1
 
 ```js
 PORT=...
