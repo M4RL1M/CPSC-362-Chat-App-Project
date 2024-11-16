@@ -6,7 +6,7 @@ import connectToMongoDB from "./db/connectToMongoDB.js";
 
 
 const app = express();
-const PORT = process.env.PORT || 5001; // Change the port number here
+const PORT = process.env.PORT || 8000; // Change the port number here
 
 dotenv.config();
 
