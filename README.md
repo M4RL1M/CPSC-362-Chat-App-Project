@@ -39,3 +39,36 @@ Notifications: Receive real-time notifications for new messages.
 
 ## Context Diagram
 ![Context Diagram](./diagram.jpeg)
+
+## Some Features:
+
+-   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
+-   🎃 Authentication && Authorization with JWT
+-   👾 Real-time messaging with Socket.io
+-   🚀 Online user status (Socket.io and React Context)
+-   👌 Global state management with Zustand
+-   🐞 Error handling both on the server and on the client
+-   ⭐ At the end Deployment like a pro for FREE!
+-   ⏳ And much more!
+
+### Setup .env file
+Postman Link: https://app.getpostman.com/join-team?invite_code=01e925e1a56ca1d0bbb543f3a2fb28b1
+
+```js
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
+```
+
+### Build the app
+
+```shell
+npm run build
+```
+
+### Start the app
+
+```shell
+npm start
+```
