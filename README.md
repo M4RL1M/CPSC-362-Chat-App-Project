@@ -1,5 +1,5 @@
 # CPSC-362-Chat-App-Project
-## Group 6: 
+## Group 5: 
 - Alexander Blocker
 - Anh Mai
 - Matthew Lim
