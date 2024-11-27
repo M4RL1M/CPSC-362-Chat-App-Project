@@ -54,6 +54,21 @@ Notifications: Receive real-time notifications for new messages.
 ### Setup .env file
 Postman Link: https://app.getpostman.com/join-team?invite_code=01e925e1a56ca1d0bbb543f3a2fb28b1
 
+#### Backend
+
+```shell
+npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken
+```
+
+#### Frontend
+
+```shell
+nvm install 18
+nvm use 18
+npm run dev
+```
+
+#### Env setup
 ```js
 PORT=...
 MONGO_DB_URI=...
