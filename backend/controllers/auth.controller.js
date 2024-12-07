@@ -30,22 +30,22 @@ export const signup = async (req, res) => {
         gender,
         profilePic: gender === "male" ? boyProfilePic : girlProfilePic, 
         });
-  
 
-      if (newUser) {
-        //Generate JWT Token
-        generateTokenAndSetCookie(newUser._id, res);
-        await newUser.save();
-
-        res.status(201).json({
-          _id: newUser._id,
-          fullname: newUser.fullname,
-          username: newUser.username,
-          profilePic: newUser.profilePic,
-        });
-      }
-      else {
-        res.status(400).json({message: "Invalid User Data"});
+      try {
+          await newUser.save(); // Save the user to the database
+    
+          // Generate JWT token and set it in a cookie
+          generateTokenAndSetCookie(newUser._id, res);
+    
+          return res.status(201).json({
+            _id: newUser._id,
+            fullname: newUser.fullname,
+            username: newUser.username,
+            profilePic: newUser.profilePic,
+          });
+      } catch (saveError) {
+          console.log("Error saving new user", saveError.message);
+          return res.status(400).json({ message: "Invalid User Data" });
       }
 
     }   catch (error) {

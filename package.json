@@ -5,8 +5,12 @@
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
+<<<<<<< HEAD
     "start": "node backend/server.js",
     "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+=======
+    "test": "jest --config jest.config.cjs"
+>>>>>>> d08fc50 (Updated test cases)
   },
   "repository": {
     "type": "git",
@@ -26,10 +30,20 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.8.1",
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-typescript": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.1.2",
+    "mongoose": "^8.8.2",
+    "nodemon": "^3.1.7",
+    "socket.io-client": "^4.8.1",
+    "supertest": "^7.0.0",
+    "ts-node": "^10.9.2"
   }
 }
